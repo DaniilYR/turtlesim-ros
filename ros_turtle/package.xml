@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_turtle</name>
+  <version>0.0.1</version>
+  <description>
+  	Chasing turtle
+  </description>
+
+  <maintainer email="daniil8303@gmail.com">Daniil Rudko</maintainer>
+  <license>BSD</license>
+  <url type="website">https://github.com/DaniilYR/turtlesim-ros</url>
+  <author email="daniil8303@gmail.com">Daniil Rudko</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>turtlesim</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>turtlesim</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>turtlesim</exec_depend>
+
+</package>
